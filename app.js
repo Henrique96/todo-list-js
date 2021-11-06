@@ -16,13 +16,13 @@ let toDos = JSON.parse(save);
 btnAdd.addEventListener('click', function () {
 
     if (inputField.value != "") {
-        createItem(inputField.value);
+        criarItem(inputField.value);
         toDos.push(inputField.value);
         window.localStorage.setItem("toDos", JSON.stringify(toDos));
         inputField.value = "";
     }
     else if (!inputField.value || inputField.value.trim() == "") {
-        alert("Insira alguma tarefa");
+        alert("Insira alguma tarefa!!");
         return;
     }
 
