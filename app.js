@@ -28,7 +28,7 @@ btnAdd.addEventListener('click', function () {
 
 });
 
-function createItem(name) {
+function criarItem(name) {
 
     let divElement = document.createElement('div');
     divElement.classList.add('item');
@@ -62,5 +62,5 @@ function createItem(name) {
 }
 
 for (let i = 0; i < toDos.length; i++) {
-    createItem(toDos[i]);
+    criarItem(toDos[i]);
 }
