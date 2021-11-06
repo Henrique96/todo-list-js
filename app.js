@@ -1,6 +1,6 @@
-let addToDoButton = document.getElementById('addToDo');
-let toDoContainer = document.getElementById('toDoContainer');
-let inputField = document.getElementById('inputField');
+var btnAdd = document.getElementById('addToDo');
+var toDoContainer = document.getElementById('toDoContainer');
+var inputField = document.getElementById('inputField');
 
 if (window.localStorage.getItem("toDos") == undefined) {
     let toDos = [];
@@ -10,7 +10,7 @@ if (window.localStorage.getItem("toDos") == undefined) {
 let save = window.localStorage.getItem("toDos");
 let toDos = JSON.parse(save);
 
-addToDoButton.addEventListener('click', function () {
+btnAdd.addEventListener('click', function () {
 
     if (inputField.value != "") {
         createItem(inputField.value);
