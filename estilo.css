@@ -1,0 +1,67 @@
+body {       
+    margin: 8px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color: lightgray;
+}
+
+body h2 {
+    margin: 8px;
+    padding: 8px;
+    font-size: 38px;
+}
+
+.container {
+    width: 460px;
+}
+
+#inputField {
+    padding: 8px;
+    margin: 8px 16px;
+    height: 25px;
+    border: none;
+    width: 250px;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+#addToDo {
+    height: 42px;
+    margin: 8px;
+    border-radius: 25px;
+    width: 42px;
+    border: none;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.item{
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 2px solid black;
+}
+
+.paragrafoEstilo {
+    background: none;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    width: 240px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
