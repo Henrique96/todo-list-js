@@ -1,7 +1,10 @@
+// Setando variáveis
+
 var btnAdd = document.getElementById('addToDo');
 var toDoContainer = document.getElementById('toDoContainer');
 var inputField = document.getElementById('inputField');
 
+// Inserindo no Armazenamento local
 if (window.localStorage.getItem("toDos") == undefined) {
     let toDos = [];
     window.localStorage.setItem("toDos", JSON.stringify(toDos));
