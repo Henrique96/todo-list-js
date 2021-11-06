@@ -19,7 +19,7 @@ btnAdd.addEventListener('click', function () {
         inputField.value = "";
     }
     else if (!inputField.value || inputField.value.trim() == "") {
-        alert("Invalid Input");
+        alert("Insira alguma tarefa");
         return;
     }
 
