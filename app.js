@@ -10,6 +10,7 @@ if (window.localStorage.getItem("toDos") == undefined) {
     window.localStorage.setItem("toDos", JSON.stringify(toDos));
 }
 
+
 let save = window.localStorage.getItem("toDos");
 let toDos = JSON.parse(save);
 
@@ -60,6 +61,8 @@ function criarItem(name) {
     divElement.appendChild(input);
     divElement.appendChild(button);
 }
+
+// Percorre o índice do Array ToDos com a função criarItem() Linha 32
 
 for (let i = 0; i < toDos.length; i++) {
     criarItem(toDos[i]);
