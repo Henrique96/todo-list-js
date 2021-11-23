@@ -29,7 +29,7 @@ body {
 .assinatura h4 {
     color: gray;
     position: relative;
-    top: 0px;
+    top: -20px;
     margin: 2px;
     padding: 2px;
     font-size: 10px;
@@ -39,6 +39,12 @@ body {
 .container {
     width: 460px;
 }
+
+.container h2 {
+    position: relative;
+    right: -20px;
+}
+
 
 #inputField {
     padding: 8px;
